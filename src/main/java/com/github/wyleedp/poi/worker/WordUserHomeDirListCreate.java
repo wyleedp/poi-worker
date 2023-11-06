@@ -21,7 +21,7 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
  *     - 경로 예) C:\Users\wyleedp\AppData\Local\Temp\20231106095505_UserHome.docx
  * </pre>
  */
-public class PoiWorkerWordCreate {
+public class WordUserHomeDirListCreate {
 
 	public void exec() {
 		System.out.println("워드파일 생성 시작");
@@ -70,7 +70,7 @@ public class PoiWorkerWordCreate {
 	}
 	
 	public static void main(String[] args) {
-		PoiWorkerWordCreate poiWorkerWordCreate = new PoiWorkerWordCreate();
+		WordUserHomeDirListCreate poiWorkerWordCreate = new WordUserHomeDirListCreate();
 		poiWorkerWordCreate.exec();
 	}
 	

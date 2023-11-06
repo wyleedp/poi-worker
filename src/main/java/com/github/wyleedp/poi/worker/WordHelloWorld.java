@@ -27,7 +27,7 @@ import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTSectPr;
  *     - 경로 예) C:\Users\wyleedp\AppData\Local\Temp\20231106101051_HelloWorld.docx
  * </pre>
  */
-public class PoiWorkerHelloWorldWord {
+public class WordHelloWorld {
 
 	public void exec() {
 		System.out.println("워드파일 생성 시작");
@@ -105,7 +105,7 @@ public class PoiWorkerHelloWorldWord {
 	}
 	
 	public static void main(String[] args) {
-		PoiWorkerHelloWorldWord poiWorkerHelloWorldWord = new PoiWorkerHelloWorldWord();
+		WordHelloWorld poiWorkerHelloWorldWord = new WordHelloWorld();
 		poiWorkerHelloWorldWord.exec();
 	}
 	
