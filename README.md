@@ -1,5 +1,6 @@
 # poi-worker
 Apache POI 라이브러리를 이용하여 MS Word(.docx) 및 Excel(.xlsx)을 생성하는 예제 프로젝트
+현재는 Word 파일생성 예제만 존재한다.
 
 ### 개발환경
 * JDK 11/Maven
